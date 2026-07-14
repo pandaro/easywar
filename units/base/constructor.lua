@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "Constructor.png",
     Category = "TANK SMALL NOTAIR NOTSUB",
-    ObjectName = "Constructor.s3o",
+    ObjectName = "base/Constructor.s3o",
     name = "Constructor",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Constructor",
-    script = "constructorscript.lua",
+    script = "base/constructorscript.lua",
 	icontype = "constructor",
 --Unit limitations and properties
     Description = "Basic Builder.",

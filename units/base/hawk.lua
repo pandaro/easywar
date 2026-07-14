@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "Hawk.png",
     Category = "AIR SMALL NOTSUB",
-    ObjectName = "Hawk.s3o",
+    ObjectName = "base/Hawk.s3o",
     name = "Hawk",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Hawk",
-    script = "hawkscript.lua",
+    script = "base/hawkscript.lua",
 	icontype = "airantiair",
 --Unit limitations and properties
     Description = "Fast Anti-Air fighter.",

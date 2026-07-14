@@ -27,6 +27,17 @@ BuildPic = "filename.png",
 	[[custom:buildermuzzleflash]],
 	},
    },
+   --custom params
+   customParams = {
+  -- Evoluzioni (Morph)
+  can_evolve_to = "arm_heavy_nano,arm_assault_nano",
+  
+  -- Potenziamenti (Buff)
+  upgrade_types = "health,range,damage",
+  upgrade_health_val = "20",   -- +20% HP
+  upgrade_range_val = "50",    -- +50 Range
+  upgrade_damage_val = "1.5",  -- x1.5 Danno
+},
 --Energy and metal related
     BuildCostEnergy = 1000,
     BuildCostMetal = 1000,

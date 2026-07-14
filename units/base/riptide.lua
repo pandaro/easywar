@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "Riptide.png",
     Category = "TANK SHIP SMALL NOTAIR NOTSUB",
-    ObjectName = "Riptide.s3o",
+    ObjectName = "base/Riptide.s3o",
     name = "Riptide",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Riptide",
-    script = "riptidescript.lua",
+    script = "base/riptidescript.lua",
 	icontype = "shipraider",
 --Unit limitations and properties
     Description = "Anti sub/ship raider unit.",

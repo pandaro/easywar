@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "Hunter.png",
     Category = "TANK SMALL NOTAIR NOTSUB",
-    ObjectName = "HunterT.s3o",
+    ObjectName = "base/HunterT.s3o",
     name = "Hunter",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Hunter",
-    script = "hunterscript.lua",
+    script = "base/hunterscript.lua",
 	icontype = "raider",
 --Unit limitations and properties
     BuildTime = 1280,
