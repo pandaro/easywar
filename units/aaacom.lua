@@ -40,7 +40,7 @@ BuildPic = "filename.png",
 },
 --Energy and metal related
     BuildCostEnergy = 1000,
-    BuildCostMetal = 1000,
+    BuildCostMetal = 100,
     energyMake = 6,
 	metalMake = 2,
 	commander = true,

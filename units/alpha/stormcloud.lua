@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "Stormcloud.png",
     Category = "AIR SMALL NOTSUB",
-    ObjectName = "Stormcloud.s3o",
+    ObjectName = "alpha/Stormcloud.s3o",
     name = "Stormcloud",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Stormcloud",
-    script = "stormcloudscript.lua",
+    script = "alpha/stormcloudscript.lua",
 	icontype = "airriot",
 --Unit limitations and properties
     Description = "Heavy Carpet Bomber.",

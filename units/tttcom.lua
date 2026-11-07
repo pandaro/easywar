@@ -47,6 +47,7 @@ BuildPic = "filename.png",
 
     
 --Abilities
+    CanRestore = 1,
     CanAttack = 1,
     CanGuard = 1,
     CanMove = 1,
@@ -68,7 +69,7 @@ workerTime = 15,
 repairSpeed = 10,
 reclaimSpeed = 15,
 buildDistance = 200,
-terraformSpeed = 9001,
+terraformSpeed = 999999,
 buildoptions = 
 	{
 	[[extractor]],
