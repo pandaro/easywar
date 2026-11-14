@@ -17,7 +17,7 @@ local sideData = {
 	{
 		name = "theta",
 		shortName = "ttt",
-		startUnit = "tttcom",
+		startUnit = "base/constructor",
 	},
 
 	{

@@ -1,11 +1,11 @@
-local unitName  =  "hawk"
+local unitName  =  "___hawk"
 
 local unitDef  =  {
 --Internal settings
 BuildPic = "Hawk.png",
     Category = "AIR SMALL NOTSUB",
     ObjectName = "base/Hawk.s3o",
-    name = "Hawk",
+    name = "___Hawk",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Hawk",

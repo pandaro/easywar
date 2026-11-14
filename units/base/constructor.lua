@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "Constructor.png",
     Category = "TANK SMALL NOTAIR NOTSUB",
-    ObjectName = "base/Constructor.s3o",
+    ObjectName = "base/constructor.s3o",
     name = "Constructor",
     Side = "Vroomers",
     TEDClass = "Vech",
     UnitName = "Constructor",
-    script = "base/constructorscript.lua",
+    script = "base/constructor.lua",
 	icontype = "constructor",
 --Unit limitations and properties
     Description = "Basic Builder.",
@@ -41,7 +41,7 @@ BuildPic = "Constructor.png",
     MovementClass = "Small Vechicle",
     TurnRate = 1000,
 
-    
+
 --Abilities
     CanAttack = 1,
     CanGuard = 1,
@@ -52,7 +52,7 @@ BuildPic = "Constructor.png",
     Reclaimable = 0,
     canSelfDestruct = 1,
     repairable = 1,
-    
+
 --building
 Builder = true,
 ShowNanoSpray = true,
@@ -63,7 +63,7 @@ repairSpeed = 3.3,
 reclaimSpeed = 5,
 buildDistance = 120,
 terraformSpeed = 9001,
-buildoptions = 
+buildoptions =
 	{
 	[[extractor]],
 	[[windturbine]],
@@ -94,7 +94,7 @@ buildoptions =
 collisionVolumeScales     =  "26 20.5 34.5",
 collisionVolumeType       =  "box",
 
-   
+
 --Weapons and related
     BadTargetCategory = "NOTAIR",
       	explodeAs = [[MediumExplosion]],

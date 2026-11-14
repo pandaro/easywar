@@ -28,7 +28,7 @@ BuildPic = "Solar Pannel.png",
     BuildCostMetal = 75,
     Buildtime = 75,
 	--2 energy, uses energyupkeep so if it turns on, it'll "use" negative energy
-    energyUpkeep = -2, --this is how it shouldve worked
+    energyUpkeep = -20, --this is how it shouldve worked
 
 --Size and Abilites
    MaxSlope = 33,

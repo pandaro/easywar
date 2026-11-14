@@ -45,8 +45,8 @@ BuildPic = "Windturbine.png",
 
 
 --Hitbox
- collisionVolumeOffsets    =  "0 25 0",
- collisionVolumeScales     =  "25 85 25",
+ collisionVolumeOffsets    =  "0 20 0",
+ collisionVolumeScales     =  "20 68 20",
  collisionVolumeType       =  "box",
 YardMap = "ooooooooo",
 --Weapons and related
