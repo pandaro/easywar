@@ -57,9 +57,9 @@ BuildPic = "filename.png",
     canSelfDestruct = 1,
     repairable = 1,
     onOffable =0,
-   activateWhenBuilt = 1,
-   canManualFire = 1,
-   
+    activateWhenBuilt = 1,
+    canManualFire = 1,
+
 --building
 Builder = true,
 ShowNanoSpray = true,
@@ -71,15 +71,13 @@ buildDistance = 200,
 terraformSpeed = 9001,
 buildoptions = 
 	{
-	[[extractor]],
-	[[windturbine]],
-	[[solarpanel]],
-	[[tidalgenerator]],
-	[[storage]],
-	[[groundfactory]],
-	[[llt]],
-	[[aat]],
-	[[radartower]],
+	'___lab',
+	'___solar',
+	'___mex',
+	'___mstore',
+	'___estore',
+	'___llt',
+	'___aat',
 	},
 
 --Hitbox

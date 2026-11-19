@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "filename.png",
     Category = "TANK SMALL NOTAIR NOTSUB HOVER",
-    ObjectName = "Commander.s3o",
+    ObjectName = "jjjcom.s3o",
     name = "joker Commander",
-    Side = "Joker",
+    Side = "joker",
     TEDClass = "Vech",
-    UnitName = "Commander",
-    script = "commanderscript.lua",
+    UnitName = "jjj Commander",
+    script = "jjjcom.lua",
 	icontype = "commander",
 --Unit limitations and properties
     Description = "Commander, Make sure not to lose it!",
@@ -45,7 +45,7 @@ BuildPic = "filename.png",
 	floater = true,
 	waterline = 5,
 
-    
+
 --Abilities
     CanAttack = 1,
     CanGuard = 1,
@@ -59,27 +59,25 @@ BuildPic = "filename.png",
     onOffable =0,
    activateWhenBuilt = 1,
    canManualFire = 1,
-   
+
 --building
 Builder = true,
 ShowNanoSpray = true,
-CanBeAssisted = true,	
+CanBeAssisted = true,
 workerTime = 15,
 repairSpeed = 10,
 reclaimSpeed = 15,
 buildDistance = 200,
 terraformSpeed = 9001,
-buildoptions = 
+buildoptions =
 	{
-	[[extractor]],
-	[[windturbine]],
-	[[solarpanel]],
-	[[tidalgenerator]],
-	[[storage]],
-	[[groundfactory]],
-	[[llt]],
-	[[aat]],
-	[[radartower]],
+	'___lab',
+	'___solar',
+	'___mex',
+	'___mstore',
+	'___estore',
+	'___llt',
+	'___aat',
 	},
 
 --Hitbox
@@ -87,7 +85,7 @@ buildoptions =
    collisionVolumeScales     =  "46 33.5 60.5",
     collisionVolumeType       =  "box",
 
-   
+
 --Weapons and related
    explodeAs = [[CommanderExplosion]],
 	selfDestructAs = [[CommanderExplosion]],

@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "filename.png",
     Category = "TANK SMALL NOTAIR NOTSUB HOVER",
-    ObjectName = "Commander.s3o",
+    ObjectName = "gggcomm.s3o",
     name = "gamma Commander",
     Side = "Gamma",
     TEDClass = "Vech",
     UnitName = "Commander",
-    script = "commanderscript.lua",
+    script = "gggcomm.lua",
 	icontype = "commander",
 --Unit limitations and properties
     Description = "Commander, Make sure not to lose it!",
@@ -71,15 +71,13 @@ buildDistance = 200,
 terraformSpeed = 9001,
 buildoptions = 
 	{
-	[[extractor]],
-	[[windturbine]],
-	[[solarpanel]],
-	[[tidalgenerator]],
-	[[storage]],
-	[[groundfactory]],
-	[[llt]],
-	[[aat]],
-	[[radartower]],
+	'___lab',
+	'___solar',
+	'___mex',
+	'___mstore',
+	'___estore',
+	'___llt',
+	'___aat',
 	},
 
 --Hitbox
