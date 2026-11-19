@@ -84,7 +84,7 @@ buildoptions =
 	{
 	'___lab',
 	'___solar',
-	'___mex',
+	'___extractor',
 	'___mstore',
 	'___estore',
 	'___llt',

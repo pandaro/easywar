@@ -249,8 +249,8 @@ local playerReadyState = {}
 local numberOfSpecs = 0
 
 --To determine faction at start 
-local sideOneDefID = UnitDefNames.commander.id --armcom
-local sideTwoDefID = UnitDefNames.commander.id --corcom
+local sideOneDefID = UnitDefNames.commander and UnitDefNames.commander.id --armcom (no "commander" unit in Easy War)
+local sideTwoDefID = UnitDefNames.commander and UnitDefNames.commander.id --corcom
 
 local teamSideOne = "arm"
 local teamSideTwo = "arm" --core

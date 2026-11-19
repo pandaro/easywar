@@ -50,6 +50,13 @@ return {
 
 		-- ROS-02 / ROS-03: the 11 base units built by ___con (missing defs are dropped by the engine with a warning)
 		buildoptions = {
+			"___lab",
+			"___solar",
+			"___extractor",
+			"___radar",
+			"___wall",
+			"___llt",
+			"___aat",
 			"___wind",
 			"___tidal",
 			"___estore",

@@ -52,6 +52,7 @@ return {
 		terraformspeed = 9001, -- common flattening only (C7 Theta)
 		canmove        = true,
 		canattack      = true, -- CMD-09: base weapon laser
+		canmanualfire  = true, -- weapon 2 (CommanderTempDLaser) is commandFire
 		capturable     = false, -- C7 Joker: Commanders cannot be captured
 		reclaimable    = false,
 		showplayername = true,
@@ -66,7 +67,7 @@ return {
 		{
 		'___lab',
 		'___solar',
-		'___mex',
+		'___extractor',
 		'___mstore',
 		'___estore',
 		'___llt',
