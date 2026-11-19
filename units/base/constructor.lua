@@ -37,8 +37,8 @@ BuildPic = "Constructor.png",
     FootprintZ = 3,
     MaxSlope = 45,
     MaxVelocity = 1.6,
-    MaxWaterDepth = 5,
-    MovementClass = "Small Vechicle",
+    MaxWaterDepth = 5000, -- was 5 (variant A: amphibious, value to match Tank_Amph_3x3)
+    MovementClass = "Tank_Amph_3x3", -- was "Small Vechicle" (placeholder: name from movedef agent)
     TurnRate = 1000,
 
 

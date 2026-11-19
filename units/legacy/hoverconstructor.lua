@@ -38,11 +38,11 @@ BuildPic = "Hover Constructor.png",
     FootprintZ = 3,
     MaxSlope = 45,
     speed = 52,
-    MaxWaterDepth = 5,
-    MovementClass = "Small Hover",
+    MaxWaterDepth = 1000,
+    MovementClass = "Ship_Sub_3x3", -- was "Small Hover" (placeholder: name from movedef agent)
     TurnRate = 1000,
 
-    
+
 --Abilities
     CanAttack = 1,
     CanGuard = 1,
@@ -57,13 +57,13 @@ BuildPic = "Hover Constructor.png",
 --building
 Builder = true,
 ShowNanoSpray = true,
-CanBeAssisted = true,	
+CanBeAssisted = true,
 workerTime = 5,
 repairSpeed = 3.3,
 reclaimSpeed = 5,
 buildDistance = 120,
 terraformSpeed = 9001,
-buildoptions = 
+buildoptions =
 	{
 	[[extractor]],
 	[[windturbine]],
@@ -94,7 +94,7 @@ buildoptions =
 collisionVolumeScales     =  "25.75 20 34.5",
 collisionVolumeType       =  "box",
 
-   
+
 --Weapons and related
     BadTargetCategory = "NOTAIR",
 	explodeAs = [[MediumExplosion]],
