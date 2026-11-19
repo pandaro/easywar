@@ -8,7 +8,7 @@ BuildPic = "filename.png",
     name = "gamma Commander",
     Side = "Gamma",
     TEDClass = "Vech",
-    UnitName = "Commander",
+    UnitName = "Gamma commander",
     script = "gggcomm.lua",
 	icontype = "commander",
 --Unit limitations and properties
