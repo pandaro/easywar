@@ -13,8 +13,8 @@ return lowerkeys({
             world = "All Worlds",
             category = "dedunit",
 			featureDead = "llt_heap",
-			collisionVolumeOffsets    =  "0 25 0",
-			collisionVolumeScales     =  "28 80 24",
+			collisionVolumeOffsets    =  "0 20 0",
+			collisionVolumeScales     =  "22.4 64 19.2",
 			collisionvolumetype = "box",
 },
 windturbine_dead = {
