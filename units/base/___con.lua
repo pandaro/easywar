@@ -61,13 +61,13 @@ return {
 			"___tidal",
 			"___estore",
 			"___mstore",
-			"___conv",
+			"___energy_converter",                -- was ___conv (model to do)
 			"___cam",
-			"___mt",
-			"___mat",
-			"___sublt",
-			"___geo",
-			"___share",
+			"___medium_tower",                    -- was ___mt
+			"___medium_anti_air",                 -- was ___mat
+			"___medium_anti_submarine_launcher",  -- was ___sublt
+			"___geothermal_power_plant",          -- was ___geo
+			"___share_unit",                      -- was ___share (model to do)
 		},
 
 		-- 7. Game-side data

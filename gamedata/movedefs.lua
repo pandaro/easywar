@@ -32,6 +32,17 @@ local moveDefs 	=	 {
 		subMarine = true,
 	},
 
+	-- Amphibious tank class for ___tank (canon C4): same as Tank_Amph_3x3 but 2x2 footprint.
+	-- Walks on land and seabed; no depth slowdown (linearCoeff = 0). Test name, not final.
+	{
+		name = "Tank_Amph_2x2",
+		speedModClass = 0,
+		footprintX = 2,
+		footprintZ = 2,
+		maxSlope = 45,
+		maxWaterDepth = 10000,
+		depthModParams = { linearCoeff = 0 },
+	},
 	----------------------------------------------------------------------
 	-- LEGACY (unchanged below this line)
 	----------------------------------------------------------------------
