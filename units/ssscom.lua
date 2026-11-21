@@ -4,12 +4,12 @@ local unitDef  =  {
 --Internal settings
 BuildPic = "filename.png",
     Category = "TANK SMALL NOTAIR NOTSUB HOVER",
-    ObjectName = "Commander.s3o",
+    ObjectName = "ssscom.s3o",
     name = "sigma Commander",
     Side = "Sigma",
     TEDClass = "Vech",
     UnitName = "Commander",
-    script = "commanderscript.lua",
+    script = "ssscom.lua",
 	icontype = "commander",
 --Unit limitations and properties
     Description = "Commander, Make sure not to lose it!",
